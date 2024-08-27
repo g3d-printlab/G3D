@@ -6,22 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>G3D - 3D Printing Services</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- For the hamburger icon -->
   </head>
   <body>
     <header>
       <div class="logo-container">
         <img
-          src="/images/Google_Forms_Header_Centered.png"
+          src="images/Google_Forms_Header_Centered.png"
           alt="G3D Logo"
           class="logo"
         />
       </div>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#catalog">Catalog</a></li>
+      <nav id="navbar">
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="catalog.html">Catalog</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+        <div id="hamburger-menu" class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
       </nav>
     </header>
 
@@ -29,25 +37,7 @@
       <div class="hero-content">
         <h1>Welcome to G3D</h1>
         <p>Your one-stop solution for custom 3D prints.</p>
-        <a href="#catalog" class="btn">Explore Catalog</a>
-      </div>
-    </section>
-
-    <section id="catalog">
-      <h2>Our Catalog</h2>
-      <div class="catalog-container">
-        <!-- Example of catalog items -->
-        <div class="catalog-item">
-          <img src="item1.png" alt="3D Printed Vase" />
-          <h3>3D Printed Vase</h3>
-          <p>A beautiful vase perfect for your home decor.</p>
-        </div>
-        <div class="catalog-item">
-          <img src="item2.png" alt="Custom 3D Keychain" />
-          <h3>Custom 3D Keychain</h3>
-          <p>Personalized keychains made just for you.</p>
-        </div>
-        <!-- Add more items as needed -->
+        <a href="catalog.html" class="btn">Explore Catalog</a>
       </div>
     </section>
 
