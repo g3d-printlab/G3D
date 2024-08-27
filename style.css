@@ -60,7 +60,7 @@ nav ul li a {
 }
 
 .hamburger {
-  display: none;
+  display: none; /* Hidden by default */
   cursor: pointer;
 }
 
@@ -199,7 +199,7 @@ footer {
   }
 
   .hamburger {
-    display: block;
+    display: block; /* Show hamburger icon */
   }
 
   .catalog-container {
